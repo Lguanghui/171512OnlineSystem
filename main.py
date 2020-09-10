@@ -24,7 +24,7 @@ class mainWindow(QMainWindow,Ui_MainWindow):
         self.filename.clear()
         self.remarks.clear()
         self.textEdit_NotSubmitNameList.clear()
-        self.ftp = ftpconnect("10.17.2.9",21,"yunyi", "A1981661341")
+        self.ftp = ftpconnect("...",21,"...", "...")    #ip地址、端口、用户名、密码
         self.showCurrentTask()  #显示当前任务
         self.initAllStudentNames()
 
@@ -127,10 +127,7 @@ class mainWindow(QMainWindow,Ui_MainWindow):
         return True
 
     def initAllStudentNames(self):
-        self.AllStudentName = ['曲文滔','郭晨','吕昀键','孙心雨','刘可铭','王鹤轩','董庆伟','巴勒根·对山别克',
-                               '郁文朗','李俊','陈昱宇','窦泓焜','孙宇','张昊','刘翔','周俊杰','胡容槐','代博元',
-                               '薛锋丰','石成斌','罗路遥','周丽萍','李文韬','沈诚宇','闫怀旻','胡静远','张漪澜',
-                               '刘佳鑫','梁光辉']
+        self.AllStudentName = [...] #学生列表
 
         #按索引生成字典，存储每个人已经提交的文件数量
         self.StudentDict = {name:0 for name in self.AllStudentName}
