@@ -36,7 +36,7 @@ def saveRetrieveData(data):
 if __name__ == "__main__":
     global HINT
     #host,port, username, password
-    ftp = ftpconnect("10.17.2.9",21,"yunyi", "A1981661341")
+    ftp = ftpconnect("...",21,"...", "...") #IP地址、端口、用户名、密码
     #下载文件，第一个是ftp服务器路径下的文件，第二个是要下载到本地的路径文件
     #downloadfile(ftp, "/12.mp3", r"C:\Users\Administrator\Desktop\ftp\download\test.mp3")
     # 上传文件，第一个是要上传到ftp服务器路径下的文件，第二个是本地要上传的的路径文件
