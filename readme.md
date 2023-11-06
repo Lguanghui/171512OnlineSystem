@@ -39,3 +39,6 @@
 main.py是主文件
 需要稳定的IP地址
 
+![image1](/images/20200914002443266.png)
+
+![image1](/images/20200914002509275.png)
