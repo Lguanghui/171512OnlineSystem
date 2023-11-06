@@ -1,4 +1,4 @@
-blog: https://blog.csdn.net/weixin_43562948/article/details/108570808?spm=1001.2014.3001.5501
+[blog]( https://blog.csdn.net/weixin_43562948/article/details/108570808?spm=1001.2014.3001.5501)
 
 ## 优点
 客户端自动更新任务
